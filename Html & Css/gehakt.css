@@ -1,0 +1,97 @@
+#home{
+    background-color: white;
+    overflow: hidden;
+}
+
+header{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    color: black;
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h1{
+    color: black;
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2{
+    font-size: 24px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: rgb(27, 27, 27);
+    cursor: pointer;
+}
+
+p{
+    font-size: 20px;
+    line-height: 26px;
+    color: black;
+    font-family: 'Roboto', sans-serif;    
+}
+
+#voor{
+    color: blue;
+}
+
+#hoofd{
+    color: green;
+}
+
+#na{
+    color: red;
+}
+
+#recepthelemaal{
+    color: white;
+    margin: 0 auto; 
+    max-width: 750px;
+}    
+
+#recept{
+    border-top: 5px solid grey;
+    max-width: 750px;
+    margin: 0 auto;
+    font-family: 'Roboto', sans-serif;
+}
+
+#gehakt, #ijs{
+    width: 500px;
+    height: 500px;
+}
+
+#tip{
+    background-color:  #def6ed;
+    border-radius: 5px;
+}
+
+#terug, #terug2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 100px;
+    color: red;
+    text-decoration: none;
+}
+
+#terug:hover, #terug2:hover{
+    color: rgb(219, 0, 0);
+    cursor: pointer;
+
+}
+
+#soep{
+    width: 600px;
+    height: 500px;
+}
