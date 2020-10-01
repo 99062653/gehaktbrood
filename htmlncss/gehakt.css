@@ -3,6 +3,57 @@
     overflow: hidden;
 }
 
+#hoofdgerecht{
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    margin-bottom: 10px;
+    transition: transform .2s;
+    width: 400px;
+    height: 400px;
+    border: 8px solid black;
+}
+
+#voorgerecht{
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    margin-bottom: 10px;
+    transition: transform .2s;
+    width: 400px;
+    height: 400px;
+    border: 8px solid black;
+}
+
+#nagerecht{
+    background-color: white;
+    position: absolute;
+    top: 30%;
+    left: 70%;
+    margin-bottom: 10px;
+    transition: transform .2s;
+    width: 400px;
+    height: 400px;
+    border: 8px solid black;
+}
+
+#hoofdgerecht:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+#voorgerecht:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+#nagerecht:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
 header{
     margin-top: 0px;
     margin-bottom: 0px;
@@ -74,8 +125,10 @@ p{
 }
 
 #tip{
+    margin-top: 25px;
     background-color:  #def6ed;
-    border-radius: 5px;
+    border-radius: 4px;
+    font-weight: bold;
 }
 
 #terug, #terug2{
@@ -94,4 +147,20 @@ p{
 #soep{
     width: 600px;
     height: 500px;
+}
+
+ul{
+    color: black;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+li:last-child{
+    margin-bottom: 40px;
+}
+
+#letop{
+    color: red;
 }
