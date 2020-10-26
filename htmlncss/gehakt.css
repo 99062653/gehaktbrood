@@ -126,6 +126,13 @@ p{
     height: 500px;
 }
 
+#tip2{
+    margin-top: 25px;
+    background-color:  #def6ed;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
 #tip{
     margin-top: 25px;
     background-color:  #def6ed;
@@ -152,6 +159,15 @@ p{
 }
 
 ul{
+    color: black;
+}
+
+
+ol:only-child {
+    margin-top: 10px;
+}
+
+ol {
     color: black;
 }
 
